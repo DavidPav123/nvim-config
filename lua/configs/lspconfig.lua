@@ -1,6 +1,6 @@
 require("nvchad.configs.lspconfig").defaults()
 
-local servers = { "html", "cssls", "stylua", "astro", "jdtls", "kotlin" }
+local servers = { "html", "cssls", "stylua", "astro", "jdtls", "kotlin", "rust_analyzer", "vtsls" }
 vim.lsp.enable(servers)
 
 if vim.lsp.inlay_hint then
